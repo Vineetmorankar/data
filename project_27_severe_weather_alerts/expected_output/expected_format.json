@@ -1,0 +1,85 @@
+[
+  {
+    "region": "Southwest",
+    "state": "AZ",
+    "window_start": "2025-07-20T14:00:00",
+    "window_end": "2025-07-20T14:10:00",
+    "alert_type": "extreme_heat_warning",
+    "severity": "warning",
+    "contributing_stations": [
+      "WS-SW-001",
+      "WS-SW-002"
+    ],
+    "measurements": {
+      "max_temperature_c": 44.5,
+      "max_wind_kmh": 72.3
+    },
+    "is_escalated": false
+  },
+  {
+    "region": "Gulf Coast",
+    "state": "TX",
+    "window_start": "2025-07-20T14:00:00",
+    "window_end": "2025-07-20T14:10:00",
+    "alert_type": "flood_warning",
+    "severity": "warning",
+    "contributing_stations": [
+      "WS-GU-001",
+      "WS-GU-003"
+    ],
+    "measurements": {
+      "max_precipitation_mmhr": 68.2
+    },
+    "is_escalated": false
+  },
+  {
+    "region": "Southwest",
+    "state": "AZ",
+    "window_start": "2025-07-20T14:10:00",
+    "window_end": "2025-07-20T14:20:00",
+    "alert_type": "extreme_heat_warning",
+    "severity": "critical",
+    "contributing_stations": [
+      "WS-SW-001",
+      "WS-SW-002",
+      "WS-SW-003"
+    ],
+    "measurements": {
+      "max_temperature_c": 45.8,
+      "max_wind_kmh": 81.0,
+      "max_precipitation_mmhr": 35.0
+    },
+    "is_escalated": true
+  },
+  {
+    "region": "Southwest",
+    "state": "AZ",
+    "window_start": "2025-07-20T14:10:00",
+    "window_end": "2025-07-20T14:20:00",
+    "alert_type": "severe_storm",
+    "severity": "critical",
+    "contributing_stations": [
+      "WS-SW-002"
+    ],
+    "measurements": {
+      "max_wind_kmh": 81.0,
+      "max_precipitation_mmhr": 35.0
+    },
+    "is_escalated": true
+  },
+  {
+    "region": "Great Plains",
+    "state": "KS",
+    "window_start": "2025-07-20T14:10:00",
+    "window_end": "2025-07-20T14:20:00",
+    "alert_type": "severe_storm",
+    "severity": "warning",
+    "contributing_stations": [
+      "WS-GR-002"
+    ],
+    "measurements": {
+      "max_wind_kmh": 105.0
+    },
+    "is_escalated": false
+  }
+]
